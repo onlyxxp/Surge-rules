@@ -1,0 +1,18 @@
+[Unit]
+Description=Snell Proxy Service
+After=sshd.service
+
+[Service]
+Type=simple
+User=nobody
+Group=nogroup
+LimitNOFILE=32768
+ExecStart=/root/snell-server -c /root/snell-server.conf
+KillMode=process
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=snell-server
+
+[Install]
+WantedBy=multi-user.target

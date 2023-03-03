@@ -1,0 +1,11 @@
+DOMAIN-SUFFIX,xconfessions.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,91p48.com
+DOMAIN-SUFFIX,tldraw.com
+DOMAIN-SUFFIX,fork.dev
+DOMAIN-SUFFIX,bwh88.net
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,ridd.it
+DOMAIN-KEYWORD,riddit
+AND,((PROCESS-NAME,Google Chrome),(DOMAIN-SUFFIX,wx.qq.com))
+DOMAIN-SUFFIX,banwagong.net

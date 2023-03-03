@@ -1,0 +1,6 @@
+#!name= byte Wi-Fi DIRECT
+#!desc=  byte Wi-Fi DIRECT
+
+[Rule]
+# byte Wi-Fi不走proxy
+SUBNET,SSID:Byte*,DIRECT

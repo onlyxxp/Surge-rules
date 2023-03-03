@@ -1,0 +1,16 @@
+[Unit]
+Description=my-iperf3 Service
+After=sshd.service
+
+[Service]
+Type=simple
+LimitNOFILE=32768
+ExecStart=/usr/bin/iperf3 -s
+KillMode=process
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=my-iperf3
+
+[Install]
+WantedBy=multi-user.target
