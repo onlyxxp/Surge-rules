@@ -7,8 +7,8 @@ DOMAIN-KEYWORD,bytescm
 DOMAIN-SUFFIX,volccdn.com
 
 #Miscrosoft
-DOMAIN-SUFFIX,account.live.com
-DOMAIN-SUFFIX,m.hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,hotmail.com
 
 # Ali
 USER-AGENT,*DingTalk*
