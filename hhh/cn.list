@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,volccdn.com
 #Miscrosoft
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,microsoftonline.com
 
 # Ali
 USER-AGENT,*DingTalk*
