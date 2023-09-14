@@ -2,14 +2,17 @@
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
 USER-AGENT,MApi* // Dianping
+USER-AGENT,Gecko* // Douyin
 
 # China
 DOMAIN-SUFFIX,CN
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,xiaohongshu
-DOMAIN-KEYWORD,xhscdn
+
+
 
 #BD
+DOMAIN-KEYWORD,zijie
 DOMAIN-KEYWORD,frontier
 DOMAIN-KEYWORD,bytedance
 DOMAIN-KEYWORD,byted
